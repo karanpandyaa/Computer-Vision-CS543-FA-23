@@ -6,7 +6,7 @@ The first step is to write code to stitch together a single pair of images.
 <img src="https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/e136e9c4-7932-4992-8573-f24d28339cf0)" width="400" height="200">
 
 Final output produced:
-<img src="https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/dea0ea70-c4cb-4aee-9b20-69d07056cdf1" width="800" height="200">
+<img src="https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/dea0ea70-c4cb-4aee-9b20-69d07056cdf1">
 
 ## Assignemnt 4: Single-view and two-view geometry![Uploading combined.png…]()
 
