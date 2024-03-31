@@ -1,1 +1,1 @@
-Assignment reports for Computer Vision CS543 taught by Prof.David S Forsyth (code private due to course policies)
+Reports for Computer Vision CS543 taught by Prof.David S Forsyth (code private due to course policies)
