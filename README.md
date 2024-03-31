@@ -1,8 +1,11 @@
 #Assignments for Computer Vision CS543 taught by Prof.David S Forsyth (code private due to course policies)
 ## [Assignment 1: Registering Prokudin-Gorskii color separations of the Russian Empire](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A1.pdf)
 ![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/d1805fd4-8565-4f4a-9a8a-52fdc6ed8402)
-
-## Assignment 2: Fourier-based Alignment and Finding Covariant Neighborhoods
+```
+Multiscale alignment. For the high-resolution glass plate scans provided above, exhaustive search over all possible displacements will become prohibitively expensive. To deal with this case, implement a faster search procedure using an image pyramid. An image pyramid represents the image at multiple scales (usually scaled by a factor of 2) and the processing is done sequentially starting from the coarsest scale (smallest image) and going down the pyramid, updating your estimate as you go. It is very easy to implement by adding recursive calls to your original single-scale implementation.
+```
+## [Assignment 2: Fourier-based Alignment and Finding Covariant Neighborhoods](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A2.pdf)
+### Part 1: Fourier-based color channel alignment
 Algorithm outline
 ```
 The Fourier-based alignment algorithm consists of the following steps:
@@ -12,7 +15,12 @@ The Fourier-based alignment algorithm consists of the following steps:
 ```
 ![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/e99b92a5-8980-47fc-832b-cc633f9a385e)
 ![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/f1a49e6e-a3c5-4762-86be-4432442bbc0f)
-## Assignment 3: Homography stitching, shape from shading
+
+### Part 2: Scale-space blob construction
+
+
+
+## [Assignment 3: Homography stitching, shape from shading](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A3.pdf)
 Part 1: Stitching pairs of images
 The first step is to write code to stitch together a single pair of images.
 
