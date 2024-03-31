@@ -10,6 +10,7 @@ An image pyramid represents the image at multiple scales (usually scaled by a fa
 ```
 
 ## [Assignment 2: Fourier-based Alignment and Finding Covariant Neighborhoods](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A2.pdf)
+
 ### Part 1: Fourier-based color channel alignment
 Algorithm outline
 ```
@@ -23,6 +24,8 @@ The Fourier-based alignment algorithm consists of the following steps:
 
 ### Part 2: Scale-space blob construction
 
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/befa1110-2d75-41ec-b37d-b40cdf834280)
+
 
 
 ## [Assignment 3: Homography stitching, shape from shading](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A3.pdf)
@@ -33,15 +36,46 @@ The first step is to write code to stitch together a single pair of images.
 
 <img src="https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/e136e9c4-7932-4992-8573-f24d28339cf0)" width="400" height="200">
 
+Finding matches:
+<img src="https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/3e518093-116d-4977-be14-c752723936c0">
+
 Final output produced:
 <img src="https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/dea0ea70-c4cb-4aee-9b20-69d07056cdf1">
 
-## Assignemnt 4: Single-view and two-view geometry![Uploading combined.png…]()
+### Part2: Shape from shading
+A: Estimate the albedo and surface normals
+Given sample:
+<img src="https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/ec3065e9-26bd-4c60-bcc1-549721eaf78d" width="400" height="200">
 
-Fundamental Matrix Estimation, Camera Calibration, Triangulation
+Albedo estimated:
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/63e29995-f83e-4354-9687-7e1dab39bda4)
 
-## Assignment 5: Affine factorization and binocular stereo
-Part 1: Affine Factorization
+Surface Normal estimated:
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/22a48436-4350-447d-ad18-108bbf906f59)
+
+
+## [Assignemnt 4: Single-view and two-view geometry](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A4.pdf)
+
+### Fundamental Matrix Estimation, Camera Calibration, Triangulation:
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/c1f86379-0840-4cd7-aa39-31a13ec32cb9)
+
+### visualize 3D camera centers and triangulated 3D points:
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/6b114897-00ef-4643-9cfb-784b964b6a70)
+
+
+## [Assignment 5: Affine factorization and binocular stereo](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A5.pdf)
+### Part 1: Affine Factorization
 The goal of this part of the assignment is to implement the Tomasi and Kanade affine structure from motion method as described in lecture. You will be working with Carlo Tomasi's 101-frame hotel sequence.
-Part 2: Binocular Stereo
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/3ebb6af9-a6b9-4a82-896b-4884026f639b)
+
+### Part 2: Binocular Stereo
 The goal of this part is to implement a simple window-based stereo matching algorithm for rectified stereo pairs.
+
+### Depth map estimation:
+Original stereo image pair:
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/51a6533c-0b62-4aa7-9455-080c0b8c777a)
+
+Output depth map:
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/ea9e01cb-8beb-4277-b003-66da9338f18a)
+
+
