@@ -2,7 +2,7 @@
 ## Assignment 3: Homography stitching, shape from shading
 Part 1: Stitching pairs of images
 The first step is to write code to stitch together a single pair of images.
-![left](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/df43d63a-2352-4a54-9918-e1b77c752669 =250x250)
+<img src="[https://your-image-url.type](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/df43d63a-2352-4a54-9918-e1b77c752669)" width="100" height="100">
 ![right](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/e136e9c4-7932-4992-8573-f24d28339cf0)
 
 ## Assignemnt 4: Single-view and two-view geometry
