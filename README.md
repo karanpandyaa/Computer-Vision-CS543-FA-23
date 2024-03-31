@@ -1,9 +1,14 @@
 #Assignments for Computer Vision CS543 taught by Prof.David S Forsyth (code private due to course policies)
 ## [Assignment 1: Registering Prokudin-Gorskii color separations of the Russian Empire](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A1.pdf)
 ![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/d1805fd4-8565-4f4a-9a8a-52fdc6ed8402)
+
+### Multiscale alignment:
 ```
-Multiscale alignment. For the high-resolution glass plate scans provided above, exhaustive search over all possible displacements will become prohibitively expensive. To deal with this case, implement a faster search procedure using an image pyramid. An image pyramid represents the image at multiple scales (usually scaled by a factor of 2) and the processing is done sequentially starting from the coarsest scale (smallest image) and going down the pyramid, updating your estimate as you go. It is very easy to implement by adding recursive calls to your original single-scale implementation.
+For the high-resolution glass plate scans provided above, exhaustive search over all possible displacements will become prohibitively expensive. To deal with this case, implement a faster search procedure using an image pyramid.
+
+An image pyramid represents the image at multiple scales (usually scaled by a factor of 2) and the processing is done sequentially starting from the coarsest scale (smallest image) and going down the pyramid, updating your estimate as you go.
 ```
+
 ## [Assignment 2: Fourier-based Alignment and Finding Covariant Neighborhoods](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A2.pdf)
 ### Part 1: Fourier-based color channel alignment
 Algorithm outline
