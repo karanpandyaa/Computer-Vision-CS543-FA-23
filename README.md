@@ -73,10 +73,13 @@ The goal of this part of the assignment is to implement the Tomasi and Kanade af
 The goal of this part is to implement a simple window-based stereo matching algorithm for rectified stereo pairs.
 
 ### Depth map estimation:
+
 Original stereo image pair:
+
 ![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/51a6533c-0b62-4aa7-9455-080c0b8c777a)
 
 Output depth map:
+
 ![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/ea9e01cb-8beb-4277-b003-66da9338f18a)
 
 
