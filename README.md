@@ -9,6 +9,7 @@ For the high-resolution glass plate scans provided above, exhaustive search over
 An image pyramid represents the image at multiple scales (usually scaled by a factor of 2) and the processing is done sequentially starting from the coarsest scale (smallest image) and going down the pyramid, updating your estimate as you go.
 ```
 
+
 ## [Assignment 2: Fourier-based Alignment and Finding Covariant Neighborhoods](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A2.pdf)
 
 ### Part 1: Fourier-based color channel alignment
