@@ -1,6 +1,16 @@
 #Assignments for Computer Vision CS543 taught by Prof.David S Forsyth (code private due to course policies)
 ## [Assignment 1: Registering Prokudin-Gorskii color separations of the Russian Empire](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A1.pdf)
 ![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/d1805fd4-8565-4f4a-9a8a-52fdc6ed8402)
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/f1a49e6e-a3c5-4762-86be-4432442bbc0f)
+
+## Assignment 2: Fourier-based Alignment and Finding Covariant Neighborhoods
+Algorithm outline
+The Fourier-based alignment algorithm consists of the following steps:
+
+For two color channels C1 and C2, compute corresponding Fourier transforms FT1 and FT2.
+Compute the conjugate of FT2 (denoted as FT2*- if you don't remember your complex numbers, look this up!), and compute the product of FT1 and FT2*.
+Take the inverse Fourier transform of this product and find the location of the maximum value in the output image. Use the displacement of the maximum value to obtain the offset of C2 from C1.
+![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/e99b92a5-8980-47fc-832b-cc633f9a385e)
 
 ## Assignment 3: Homography stitching, shape from shading
 Part 1: Stitching pairs of images
