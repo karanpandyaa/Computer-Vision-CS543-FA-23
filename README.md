@@ -1,5 +1,5 @@
 #Assignments for Computer Vision CS543 taught by Prof.David S Forsyth (code private due to course policies)
-## [Assignment 1: Registering Prokudin-Gorskii color separations of the Russian Empire](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A1.pdf
+## [Assignment 1: Registering Prokudin-Gorskii color separations of the Russian Empire](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/blob/main/A1.pdf)
 ![image](https://github.com/karanpandyaa/Computer-Vision-CS543-FA-23/assets/50593664/d1805fd4-8565-4f4a-9a8a-52fdc6ed8402)
 
 ## Assignment 3: Homography stitching, shape from shading
